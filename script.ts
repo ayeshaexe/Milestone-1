@@ -4,11 +4,11 @@ if (button && skills) {
     button.addEventListener("click", () =>{
         if(skills.style.display === "none"){
             skills.style.display = "block";
-            button.value = "hide skills"
+            button.value = "Hide skills"
         }
         else {
             skills.style.display = "none";
-            button.value = "show skills"
+            button.value = "Show skills"
         }
     } )
 }
