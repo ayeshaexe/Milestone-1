@@ -1,5 +1,6 @@
 body {
     background-color: rgb(250, 246, 227);
+    height: 500px;
     margin: 0;
     padding: 0;
 }
@@ -62,7 +63,7 @@ body {
 /* footer */
 .footer {
     text-align: center;
-    height: 100px;
+    height: 150px;
     color: rgb(42, 54, 99);
     font-size: 20px;
     line-height: 10px;
@@ -71,7 +72,7 @@ body {
     background-color: rgb(162, 210, 223);
 }
 .footer p {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .full  {
     height: 890px;
@@ -163,7 +164,7 @@ input {
     font-weight: 600;
     margin-left: 20px;
     height: 50px;
-    width: 90px;
+    width: 100px;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -265,8 +266,16 @@ input {
     #sec-1 h3 {
         width: 200px;
     }
+    #sec-2 h3 {
+        width: 200px;
+    }
     #sec-1 .info {
         height: 200px;
+    }
+}
+@media only screen and (max-width: 731px){
+    #sec-1 h3 {
+        width: 200px;
     }
 }
 @media only screen and (max-width: 670px){
@@ -276,6 +285,9 @@ input {
         gap: 30px;
     }
     #sec-1 h3 {
+        width: 200px;
+    }
+    #sec-2 h3 {
         width: 200px;
     }
     .full {
@@ -292,6 +304,9 @@ input {
     #sec-1 h3 {
         width: 200px;
     }
+    #sec-2 h3 {
+        width: 200px;
+    }
 }
 @media  only screen and (max-width: 455px){
     .nav {
@@ -301,6 +316,9 @@ input {
         padding-left: 80px;
     }
     #sec-1 h3 {
+        width: 200px;
+    }
+    #sec-2 h3 {
         width: 200px;
     }
 }
